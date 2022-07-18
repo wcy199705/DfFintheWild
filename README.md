@@ -1,7 +1,7 @@
 # Learning Depth from Focus in the Wild 
 [ECCV2022] Official pytorch implementation of "Learning Depth from Focus in the Wild"
-*[paper] (Not yet)
-*Contact email : cywon1997@gm.gist.ac.kr
+* [paper] (Not yet)
+* Contact email : cywon1997@gm.gist.ac.kr
 ## Requirements
 * Python == 3.7.7
 * imageio==2.16.1
