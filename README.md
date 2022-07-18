@@ -51,7 +51,7 @@
 ### *Limitation
  Our network shows poor performance on extreme motions because it handles only 3 motions which can not cover all motions.
 ## Sources
->[1] Chang, Jia-Ren, and Yong-Sheng Chen. "Pyramid stereo matching network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2018.[Ccode](https://github.com/JiaRenChang/PSMNet) [paper](https://arxiv.org/abs/1803.08669)
+>[1] Chang, Jia-Ren, and Yong-Sheng Chen. "Pyramid stereo matching network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2018.[code](https://github.com/JiaRenChang/PSMNet) [paper](https://arxiv.org/abs/1803.08669)
 
 >[2] Shen, Zhelun, Yuchao Dai, and Zhibo Rao. "Cfnet: Cascade and fused cost volume for robust stereo matching." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021.[code](https://github.com/gallenszl/CFNet) [paper](https://arxiv.org/abs/2104.04314)
 
