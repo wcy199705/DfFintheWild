@@ -4,7 +4,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn.init as init
 import math
-from torch.nn.modules.pooling import MaxPool2d
 class Network(nn.Module):
     def __init__(self):
         super(Network,self).__init__()
