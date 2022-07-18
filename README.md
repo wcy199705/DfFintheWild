@@ -53,20 +53,20 @@
 ### *Limitation
  Our network shows poor performance on extreme motions because it only handles 3 basis motions which can not cover all motions.
 ## Sources
->[1] Chang, Jia-Ren, and Yong-Sheng Chen. "Pyramid stereo matching network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2018.[code](https://github.com/JiaRenChang/PSMNet) [paper](https://arxiv.org/abs/1803.08669)
+>[1] Chang, Jia-Ren, and Yong-Sheng Chen. "Pyramid stereo matching network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2018. [code](https://github.com/JiaRenChang/PSMNet) [paper](https://arxiv.org/abs/1803.08669)
 
->[2] Shen, Zhelun, Yuchao Dai, and Zhibo Rao. "Cfnet: Cascade and fused cost volume for robust stereo matching." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021.[code](https://github.com/gallenszl/CFNet) [paper](https://arxiv.org/abs/2104.04314)
+>[2] Shen, Zhelun, Yuchao Dai, and Zhibo Rao. "Cfnet: Cascade and fused cost volume for robust stereo matching." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021. [code](https://github.com/gallenszl/CFNet) [paper](https://arxiv.org/abs/2104.04314)
 
->[3] Abuolaim, Abdullah, et al. "Learning to reduce defocus blur by realistically modeling dual-pixel data." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021.[code](https://github.com/Abdullah-Abuolaim/recurrent-defocus-deblurring-synth-dual-pixel) [paper](https://arxiv.org/pdf/2012.03255.pdf)
+>[3] Abuolaim, Abdullah, et al. "Learning to reduce defocus blur by realistically modeling dual-pixel data." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. [code](https://github.com/Abdullah-Abuolaim/recurrent-defocus-deblurring-synth-dual-pixel) [paper](https://arxiv.org/pdf/2012.03255.pdf)
 
  
 >[4]Silberman, Nathan, et al. "Indoor segmentation and support inference from rgbd images." European conference on computer vision. Springer, Berlin, Heidelberg, 2012. [page](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
 
->[5]Hazirbas, Caner, et al. "Deep depth from focus." Asian Conference on Computer Vision. Springer, Cham, 2018.[code](https://github.com/soyers/ddff-pytorch) [paper](https://arxiv.org/pdf/1704.01085.pdf)
+>[5]Hazirbas, Caner, et al. "Deep depth from focus." Asian Conference on Computer Vision. Springer, Cham, 2018. [code](https://github.com/soyers/ddff-pytorch) [paper](https://arxiv.org/pdf/1704.01085.pdf)
 
->[6]Maximov, Maxim, Kevin Galim, and Laura Leal-Taixé. "Focus on defocus: bridging the synthetic to real domain gap for depth estimation." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.[code](https://github.com/dvl-tum/defocus-net) [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Maximov_Focus_on_Defocus_Bridging_the_Synthetic_to_Real_Domain_Gap_CVPR_2020_paper.html)
+>[6]Maximov, Maxim, Kevin Galim, and Laura Leal-Taixé. "Focus on defocus: bridging the synthetic to real domain gap for depth estimation." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020. [code](https://github.com/dvl-tum/defocus-net) [paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Maximov_Focus_on_Defocus_Bridging_the_Synthetic_to_Real_Domain_Gap_CVPR_2020_paper.html)
 
->[7]Wang, Ning-Hsu, et al. "Bridging Unsupervised and Supervised Depth from Focus via All-in-Focus Supervision." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021.[code](https://github.com/albert100121/AiFDepthNet) [paper](https://arxiv.org/abs/2108.10843)
+>[7]Wang, Ning-Hsu, et al. "Bridging Unsupervised and Supervised Depth from Focus via All-in-Focus Supervision." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. [code](https://github.com/albert100121/AiFDepthNet) [paper](https://arxiv.org/abs/2108.10843)
 
 >[8] Scharstein, Daniel, et al. "High-resolution stereo datasets with subpixel-accurate ground truth." German conference on pattern recognition. Springer, Cham, 2014. [page](https://vision.middlebury.edu/stereo/data/)
 
