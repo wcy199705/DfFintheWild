@@ -3,7 +3,6 @@ import skimage.color as color
 from skimage import exposure
 def image_augmentation(x,contrast,brightness,gamma):
     x=x/255
-    #x=hsv_aug(x,seeds)
     x = (0.5 + contrast*(x-0.5)) + brightness
     x = np.minimum(x, 1.0)
     x = np.maximum(x, 0)    
@@ -25,7 +24,6 @@ def image_augmentation_0_1(x,contrast,brightness,gamma):
     x = np.maximum(x, 0)
     return x
 
-
 def horizontal_flip(x,depth, random_val):
 
     if(random_val>0.5):
@@ -55,7 +53,6 @@ def horizontal_flip(x,depth, random_val):
         depth=np.flip(depth,1).copy()
     return x,depth
 
-
 def vertical_flip(x,depth, random_val):
     if(random_val>0.5):
         x=np.flip(x,0).copy()
@@ -70,7 +67,7 @@ def randcrop(x,depth,x_seeds,y_seeds,interval_x,interval_y):
     depth = depth[y_seeds:y_seeds-interval_y,x_seeds:x_seeds-interval_x]
     return x ,depth
 
-#3d (x: H W C N)
+# 3d (x: H W C N)
 
 def randcrop_3d(x,depth,x_seeds,y_seeds,interval_x,interval_y):
     x = x[y_seeds:y_seeds-interval_y,x_seeds:x_seeds-interval_x,:,:]#[H,W,C,N]
@@ -119,13 +116,14 @@ def vertical_flip_w_conf(x,depth,conf,random_val):
         x=np.flip(x,0).copy()
         depth=np.flip(depth,0).copy()
         conf = np.flip(conf,0).copy()
-
     return x,depth,conf
+
 def rotate_w_conf(x,depth,conf,degree):
     x=np.rot90(x,degree,axes=(0,1)).copy()
     depth=np.rot90(depth,degree,axes=(0,1)).copy()
     conf = np.rot90(conf,degree,axes=(0,1)).copy()
     return x,depth,conf
+
 def randcrop_3d_w_conf(x,depth,conf,x_seeds,y_seeds,interval_x,interval_y):
     x = x[y_seeds:y_seeds-interval_y,x_seeds:x_seeds-interval_x,:,:]#[H,W,C,N]
     depth = depth[y_seeds:y_seeds-interval_y,x_seeds:x_seeds-interval_x]
@@ -166,9 +164,6 @@ def randcrop_3d_dfd(x,depth,conf,defocus,x_seeds,y_seeds,interval_x,interval_y):
     defocus = defocus[:,y_seeds:y_seeds-interval_y,x_seeds:x_seeds-interval_x]#[H,W,C,N]
 
     return x,depth,conf,defocus
-
-
-
 
 
 
