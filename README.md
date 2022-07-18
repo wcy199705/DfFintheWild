@@ -51,7 +51,7 @@
 ### 2. Run test.py
     python test_real_scenes.py
 ### Limitation
-* Our network shows poor performance on handling extreme motions because it only handles 3 basis motions which can not cover all motions.
+* Our network only handles 3 basic motions, which can't cover all motions, so performance is poor when dealing with extreme motions.
 ## Sources
 >[1] Chang, Jia-Ren, and Yong-Sheng Chen. "Pyramid stereo matching network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2018. [code](https://github.com/JiaRenChang/PSMNet) [paper](https://arxiv.org/abs/1803.08669)
 
