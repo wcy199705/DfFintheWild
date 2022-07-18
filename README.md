@@ -1,4 +1,5 @@
-# [ECCV2022] Official implementation of "Learning Depth from Focus in the Wild"
+# DfFWild : Learning Depth from Focus in the Wild 
+[ECCV2022] Official implementation of "Learning Depth from Focus in the Wild"
 ## Requirements
 * Python == 3.7.7
 * imageio==2.16.1
