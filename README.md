@@ -44,12 +44,8 @@
 ### 2. Run the code.
     python synthetic_blur_movement.py
 ## End-To-End Network
-* We create a new anonymous google account to share pre-trained models.
-
 ### 1. Download the real dataset and pretrained model.
-* Pretrained model : https://drive.google.com/file/d/1hNDYSfeJJ9iLCwsvWTkiiavhKY1cGc91/view?usp=sharing
 *  Put the dataset in 'End_to_End/Datasets/' folder.
-*  Put 'check_point.pth' in 'End_to_End' folder.
 ### 2. Run test.py
     python test_real_scenes.py
 ## Sources
