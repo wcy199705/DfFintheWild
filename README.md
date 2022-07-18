@@ -1,4 +1,4 @@
-#[ECCV2022] Official implementation of "Learning Depth from Focus in the Wild"
+# [ECCV2022] Official implementation of "Learning Depth from Focus in the Wild"
 ## Requirements
 * Python == 3.7.7
 * imageio==2.16.1
@@ -16,6 +16,7 @@
 * tqdm==4.46.0
 * mat73==0.58
 * typing-extensions==4.1.1
+
 ## Depth estimation Network
 * Our depth estimation network is implemented based on the codes released by PSMNet [1] and CFNet [2].
 ### 1. Download Datasets
