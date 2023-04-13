@@ -52,6 +52,11 @@
     python test_real_scenes.py
 ### Limitation
 * Our network only handles 3 basic motions, which can't cover all motions, so performance is poor when dealing with extreme motions.
+### To do
+  1. Pretrained model of end-to-end network
+  2. Test on real-world dataset captured by smartphone.
+
+
 ## Sources
 >[1] Chang, Jia-Ren, and Yong-Sheng Chen. "Pyramid stereo matching network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2018. [code](https://github.com/JiaRenChang/PSMNet) [paper](https://arxiv.org/abs/1803.08669)
 
