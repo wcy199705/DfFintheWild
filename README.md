@@ -55,11 +55,23 @@
     python test_real_scenes.py
 ### Results
 * Before alignment network (input focal stack)
-![ball](https://github.com/wcy199705/DfFintheWild/tree/main/Results/Balls_before_warp.gif)![Plants](https://github.com/wcy199705/DfFintheWild/tree/main/Results/Plants_before_warp.gif)
+
+  
+<img src="./Results/Balls_before_warp.gif" width="30%" height="30%"> <img src="./Results/Plants_before_warp.gif" width="30%" height="30%">
+
+
+
 * After alignment network (aligned focal stack)
-![ball](https://github.com/wcy199705/DfFintheWild/tree/main/Results/Balls_after_warp.gif)![Plants](https://github.com/wcy199705/DfFintheWild/tree/main/Results/Plants_after_warp.gif)
-* After depth estimation network (depthmap)
-![ball](https://github.com/wcy199705/DfFintheWild/tree/main/Results/ball_depth.jpg)![Plants](https://github.com/wcy199705/DfFintheWild/tree/main/Results/plants_depth.jpg)
+
+  
+<img src="./Results/Balls_after_warp.gif" width="30%" height="30%"> <img src="./Results/Plants_after_warp.gif" width="30%" height="30%">
+
+
+
+* After depth estimation network (depth map)
+
+  
+<img src="./Results/ball_depth.jpg" width="30%" height="30%"> <img src="./Results/plants_depth.jpg" width="30%" height="30%">
 
 
 ### Limitation
