@@ -52,9 +52,6 @@
     python test_real_scenes.py
 ### Limitation
 * Our network only handles 3 basic motions, which can't cover all motions, so performance is poor when dealing with extreme motions.
-### To do
-  1. Pretrained model of end-to-end network
-  2. Test on real-world dataset captured by smartphone.
 
 
 ## Sources
